@@ -1,8 +1,13 @@
 ### Mayumi Mitchell's ###
 **Biography**
 
-Mayumi Mitchell is an artist born Kanagawa in Japan. She started painting from her childfood. Also, she is acknowledged cat maniac by people. This is a few of her art work in California 2014-2016
+Mayumi Mitchell is an artist born Kanagawa in Japan. She started painting from her childfood. Also, she is acknowledged cat maniac by people. This is a few of her art work in California 2014-2016.
+
+-Terrence
+-Perry
 ![Alt text](UNADJUSTEDNONRAW_thumb_8b.jpg)
+
+
 
 ![Alt text](MG_1102のコピー.jpeg)
 
