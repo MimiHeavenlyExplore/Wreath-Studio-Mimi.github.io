@@ -17,4 +17,4 @@
 ![IMG_2137](https://user-images.githubusercontent.com/55659971/65597405-06b38580-dfd4-11e9-8f83-e60fd3881a20.jpeg)
 ![IMG_2140](https://user-images.githubusercontent.com/55659971/65597410-0915df80-dfd4-11e9-9383-2ab25d1e5ee1.jpeg)
 
-[Go Back To Top Page](http://wreathstudiomayumi.github.io/index.md)
+[Go Back To Top Page](https://github.com/MimiHeavenlyExplore/WreathStudioMayumi.github.io/blob/master/index.md)
