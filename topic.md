@@ -17,4 +17,8 @@
 ![IMG_2137](https://user-images.githubusercontent.com/55659971/65597405-06b38580-dfd4-11e9-8f83-e60fd3881a20.jpeg)
 ![IMG_2140](https://user-images.githubusercontent.com/55659971/65597410-0915df80-dfd4-11e9-9383-2ab25d1e5ee1.jpeg)
 
+Mayumi's wreath signature: use wired ribbons, figures and imaginations!
+If you would like to join maiking wreath please contact us.
+Tel: xxx-xxxx-xxxx
+
 [Go Back To Top Page](https://github.com/WreathStudioMayumi/WreathStudioMayumi.github.io/blob/master/index.md)
