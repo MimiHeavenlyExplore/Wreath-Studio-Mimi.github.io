@@ -10,7 +10,7 @@ Mayumi Mitchell is an artist born Kanagawa in Japan. She started painting from h
 Her creation is very unique. She started making original wreath 2015. She was inspired by Belgium decoration company [Good will M&G](http://www.goodwill.be)
 You can purchase decolation goods from [Joann](https://www.joann.com)
 
-[Go Back To Top Page](wreath-Studio-Mimi.github.io/index.md)
+[Go Back To Top Page](wreathstudiomayumi.github.io/index.md)
 
 
 
