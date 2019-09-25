@@ -7,3 +7,4 @@
 
 [Next Biography](https://github.com/WreathStudioMayumi/WreathStudioMayumi.github.io/blob/master/bio.md)
 
+[Collections](https://github.com/WreathStudioMayumi/WreathStudioMayumi.github.io/blob/master/topic.md)
