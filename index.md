@@ -2,7 +2,7 @@
 --------------------------------
 ## This is Mayumi's Wreath Studio Page, Iwakuni, Japan
 
-![IMG_0243のコピー](https://user-images.githubusercontent.com/55659971/65602737-5c415f80-dfdf-11e9-8174-35a15db56bdf.jpeg)
+![HP TOPIC](https://user-images.githubusercontent.com/55659971/66178934-0c7b2c00-e6a2-11e9-904b-d75aa2606e4e.jpg)
 
 
 [Next Biography](bio)
