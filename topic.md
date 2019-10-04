@@ -1,24 +1,24 @@
 
 # Mayumi's Original Wreath Collections
 ----------------------------------------
-*Spring Wereath*
-![IMG_0222](https://user-images.githubusercontent.com/55659971/65596900-dc14fd00-dfd2-11e9-93f7-ff028d7eefd1.jpeg)
-![IMG_0223](https://user-images.githubusercontent.com/55659971/65596915-e20ade00-dfd2-11e9-9eef-20cd3ef2ad51.jpeg)
-![IMG_0224](https://user-images.githubusercontent.com/55659971/65596921-e7682880-dfd2-11e9-9d92-e08586ca5993.jpeg)
-![IMG_0225](https://user-images.githubusercontent.com/55659971/65596927-e9ca8280-dfd2-11e9-8ff7-4806e24f2f6b.jpeg)
+*Spring*
+![Spring Wreath 1-1](https://user-images.githubusercontent.com/55659971/66179175-ef932880-e6a2-11e9-899f-d9d7be003bf9.jpg)
+![Spring Wreath 1-2](https://user-images.githubusercontent.com/55659971/66179191-fde14480-e6a2-11e9-9cdf-caa72b9b84fd.jpg)
+![Spring Wreath 1-3](https://user-images.githubusercontent.com/55659971/66179194-020d6200-e6a3-11e9-8a98-324ad7d1c4a0.jpg)
 
-*Halloween*
-![IMG_2070](https://user-images.githubusercontent.com/55659971/65597678-aa9d3100-dfd4-11e9-89da-ec848e40137a.jpg)
+*Autumn*
+![Fall Wreath 1](https://user-images.githubusercontent.com/55659971/66179202-08034300-e6a3-11e9-8af2-28d181907718.jpg)
 
-*Christmas*
-![IMG_2007](https://user-images.githubusercontent.com/55659971/65597363-f13e5b80-dfd3-11e9-9a70-ac509959b51e.jpg)
-![IMG_2009](https://user-images.githubusercontent.com/55659971/65597369-f4394c00-dfd3-11e9-8c5f-7f41d379560e.jpeg)
-![IMG_2139](https://user-images.githubusercontent.com/55659971/65597388-01563b00-dfd4-11e9-9125-9ef6acfe42dd.jpeg)
-![IMG_2137](https://user-images.githubusercontent.com/55659971/65597405-06b38580-dfd4-11e9-8f83-e60fd3881a20.jpeg)
-![IMG_2140](https://user-images.githubusercontent.com/55659971/65597410-0915df80-dfd4-11e9-9383-2ab25d1e5ee1.jpeg)
+*chrsistmas*
+![Christmas Wreath 1-1](https://user-images.githubusercontent.com/55659971/66179211-0c2f6080-e6a3-11e9-840d-fa3ec265a363.jpg)
+![Christmas Wreath 1-2](https://user-images.githubusercontent.com/55659971/66179217-12bdd800-e6a3-11e9-8527-50adce65a1e0.jpg)
+![Christmas Wreath 4-1](https://user-images.githubusercontent.com/55659971/66179228-1cdfd680-e6a3-11e9-9096-0cccfcc11972.jpg)
+![Christmas Wreath 3 jpg](https://user-images.githubusercontent.com/55659971/66179232-210bf400-e6a3-11e9-8e27-8fb4d389c6ec.jpg)
+![Christmas Wreath 5](https://user-images.githubusercontent.com/55659971/66179241-249f7b00-e6a3-11e9-8e11-bdcec275759f.jpg)
+
 
 Mayumi's wreath signature: use wired ribbons, figures and imaginations!
 If you would like to join maiking wreath please contact us.
-Tel: xxx-xxxx-xxxx
+Phone: xxx-xxxx-xxxx
 
 [Go Back To Top Page](index)
