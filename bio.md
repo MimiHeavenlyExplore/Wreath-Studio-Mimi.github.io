@@ -17,9 +17,9 @@ Her creation is very unique. She started making original wreath 2015. She was in
 
 You can purchase decoration goods from [Joann](https://www.joann.com)
 
-[Next Page Collections](https://github.com/WreathStudioMayumi/WreathStudioMayumi.github.io/blob/master/topic.md)
+[Next Page Collections](topic)
 
-[Go Back To Top Page](https://github.com/WreathStudioMayumi/WreathStudioMayumi.github.io/blob/master/index.md)
+[Go Back To Top Page](index)
 
 
 
