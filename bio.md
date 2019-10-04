@@ -8,7 +8,7 @@ Mayumi Mitchell is an artist born Kanagawa in Japan. She started painting from h
 
 
 2.Scream
-[Perry Terrence](https://user-images.githubusercontent.com/55659971/66178945-143ad080-e6a2-11e9-8c74-14d89a4bf390.jpg)
+![Perry Terrence](https://user-images.githubusercontent.com/55659971/66178945-143ad080-e6a2-11e9-8c74-14d89a4bf390.jpg)
 
 
 Her creation is very unique. She started making original wreath 2015. She was inspired by Belgium decoration company [Good will M&G](http://www.goodwill.be)
