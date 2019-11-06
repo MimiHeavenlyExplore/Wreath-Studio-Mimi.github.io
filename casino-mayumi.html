@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chip counting Program</h1>
+<p>This program</p>
+<script>
+Var nTotalValue = 0, nTotalCount = 0, sEntry, nQty;
+sEntry = prompt("Enter Quantity Black Chips", "0")
+nQty = parseInt(sEntry);
+nTotalValue = nQty * 5 + nTotalValue;
+nTotalCount = nTotalCount + nQty;
+document.write("<h2>Black Chips Qty = " + nQty + ", Value = $"+ nQty * 5 + "<h2>");
+sEntry = prompt("Enter Quantity Blue Chips", "0")
+nQty = parseInt(sEntry);
+nTotalValue = nQty * 20 + nTotalValue;
+nTotalCount = nTotalCount + nQty;
+document.write("<h2 style ='color: blue'>Blue Chips Qty = " + nQty + ", Value = $" + nQty * 20 + "<h2>");
+sEntry = prompt("Enter Quantity Red Chips", "0")
+nQty = parseInt(sEntry);
+nTotalValue = nQty * 50 + nTotalValue;
+nTotalCount = nTotalCount + nQty;
+document.write("<h2 style ='color: red'>Red Chips Qty = " + nQty + ", Value = $" + nQty * 50 + "<h2>");
+sEntry = prompt("Enter Quantity Green Chips", "0")
+nQty = parseInt(sEntry);
+nTotalValue = nQty * 100 + nTotalValue;
+nTotalCount = nTotalCount + nQty;
+document.write("<h2 style ='color: green'>Green Chips Qty = " + nQty + ", Value = $" + nQty * 100 + "<h2>");
+
+document.write("<h1 style ='color: purple'>All Chips Qty = " + nTotalCount + "<br>,All Chips Value = $" + "<h2>");
+    
+</script>
+</body>
+</html>
