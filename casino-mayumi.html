@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Chip counting Program</h1>
+    <h1>Chip Counting Program</h1>
 <p>This program</p>
 <script>
-Var nTotalValue = 0, nTotalCount = 0, sEntry, nQty;
+var nTotalValue = 0, nTotalCount = 0, sEntry, nQty;
 sEntry = prompt("Enter Quantity Black Chips", "0")
 nQty = parseInt(sEntry);
 nTotalValue = nQty * 5 + nTotalValue;
@@ -32,7 +32,8 @@ nTotalValue = nQty * 100 + nTotalValue;
 nTotalCount = nTotalCount + nQty;
 document.write("<h2 style ='color: green'>Green Chips Qty = " + nQty + ", Value = $" + nQty * 100 + "<h2>");
 
-document.write("<h1 style ='color: purple'>All Chips Qty = " + nTotalCount + "<br>,All Chips Value = $" + "<h2>");
+document.write("<h1 style ='color: purple'>All Chips Qty = " + nTotalCount 
+    + "<br>All Chips Value = $" + nTotalValue + "<h2>");
     
 </script>
 </body>
