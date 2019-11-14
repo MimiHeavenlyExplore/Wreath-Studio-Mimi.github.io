@@ -6,12 +6,11 @@
     </head>
     <body>    
     <script>
-         var fGross, fTax, fNet;
-        
-    window.alert("this Program will caluculate Paycheck Please input your infomation");
+    var fGross, fTax, fNet;    
+    alert("this Program will caluculate Paycheck Please input your infomation");
     var sName = prompt ("Enter your name", "");
-    var fWage = prmpt (prompt("Enter your wage","0"));
-    var fHours= prmpt paeseFloat(prompt("Enter your hours","0"));
+    var fWage = prmpt parseFloat(prompt("Enter your wage","0"));
+    var fHours= prmpt parseFloat(prompt("Enter your hours","0"));
     if (fHours <= 40); { 
         fGross = fWage * fHours ;
         }
