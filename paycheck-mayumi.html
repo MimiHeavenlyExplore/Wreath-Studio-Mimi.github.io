@@ -9,7 +9,6 @@
     <h1>Paycheck Program</h1>
     <p>Mayumi Mitchell</p>    
     </div>
-    </body>    
     <table border="">
     <thead>
         <tr><th>Name</th><th>SSN</th><th>Pay Rate</th><th>Hours Worked</th></tr>
@@ -27,24 +26,31 @@
 
 
 <script type ="text/javascript">
-window.alert ('This program will caluculate Paycheck Please input your infomation');
+window.alert ("This program will caluculate Paycheck Please input your infomation");
 // intro
 let name;
 name = prompt("Pleae enter your name");
 //get name
-let ssn;
-ssn = prompt("Plese enter your ssn last 4");
+let ssn = prompt("Plese enter your ssn last 4");
 //get ssn
-let payrate;
-hourypay = prompt("Plese enter your hourlypay $");
+let hourlypay = parseFloat(prompt("Plese enter your hourlypay $"));
 // get hourlypay 
-workedhours = prompt("Please enter your workedhours");
+let workedhours = parseFloat(prompt("Please enter your workedhours"));
 // get workedhours
-let subtotal = hourlypay * workedhours
-let message = "Your subtotal is [" + subtotal + "]";
-alert(message);
-</script>
+let subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
+if (subtotal <= 1000) {
+ alert("You have to pay 15% tax, under $1000 paycheck.");  
+gross = subtotal * 0.85;
+tax = subtotal - gross;
+ alert("Your total Gross is +'gross'+ Tax is +'tax'+ ") 
+}
 
+else {
+    alert("You have to pay 25% tax, over $1000 paycheck.");  
+gross = subtotal * 0.75;
+tax = subtotal - gross;
+ alert("Your total Gross is +'gross'+ Tax is +'tax'+ ") 
+}
 
     <ul>
     <li><strong>Web page Freedom:</strong> <a href="freedom.html"> Mayumi's Freedom</a></li>
@@ -55,6 +61,6 @@ alert(message);
     <li><strong>Web page Casino:</strong> <a href="https://wreathstudiomayumi.github.io/casino-mayumi.html"> Mayumi's Casino</a></li> 
     <li><strong>Mayumi C2Fconverter:</strong> <a href="https://wreathstudiomayumi.github.io/c2fconverter-mayumi.html">C2FConverter</a></li> 
    </ul>
-     
-    
+     </script>
+    </body>
 </html>
