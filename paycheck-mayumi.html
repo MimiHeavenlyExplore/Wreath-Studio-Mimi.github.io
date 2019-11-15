@@ -2,30 +2,30 @@
 <html lang="en">
  <meta charset="UTF-8">
    <title>paycheck-mayumi.html</title>
-     <body style = "background-color: #FFFF00;">
+   <body style = "background-color: #FFFF00;">
     <h1>Paycheck Program</h1>
     <p>Mayumi Mitchell</p> 
       
     
- <script type = "text/javascript">
-window.alert ("This program will caluculate Paycheck Please input your infomation");
+<script type = "text/javascript">
+    window.alert ("This program will caluculate Paycheck Please input your infomation");
 // intro
-name;
+let name;
 name = prompt("Pleae enter your name");
 //get name
 document.write (name);
-ssn = prompt("Plese enter your ssn last 4");
+let ssn = prompt("Plese enter your ssn last 4");
 //get ssn
 document.write(ssn);
-hourlypay = parseFloat(prompt("Plese enter your hourlypay $"));
+let hourlypay = parseFloat(prompt("Plese enter your hourlypay $"));
 // get hourlypay 
 document.write(hourlypay);
-workedhours = parseFloat(prompt("Please enter your workedhours"));
+let workedhours = parseFloat(prompt("Please enter your workedhours"));
 // get workedhours
 document.write(workedhour);
-subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
+let subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
 if (subtotal <= 1000) {
-alert("You have to pay 15% tax, under $1000 paycheck.");  
+ alert("You have to pay 15% tax, under $1000 paycheck.");  
 gross = subtotal * 0.85;
 tax = subtotal - gross;
  alert("Your total Gross is +'gross'+ Tax is +'tax'+ ");
@@ -39,7 +39,7 @@ tax = subtotal - gross;
 }
 document.write( subtotal + tax + gross );
     
-  
+
 <ul>
     <li><strong>Web page Freedom:</strong> <a href="freedom.html"> Mayumi's Freedom</a></li>
     <li><strong>Web page Combustion:</strong> <a href="https://wreathstudiomayumi.github.io/combustion.html"> Mayumi's Combustion</a></li>
@@ -49,6 +49,7 @@ document.write( subtotal + tax + gross );
     <li><strong>Web page Casino:</strong> <a href="https://wreathstudiomayumi.github.io/casino-mayumi.html"> Mayumi's Casino</a></li> 
     <li><strong>Mayumi C2Fconverter:</strong> <a href="https://wreathstudiomayumi.github.io/c2fconverter-mayumi.html">C2FConverter</a></li> 
 </ul>
-</body>
-     </script>
+
+</script>
+</body> 
 </html>
