@@ -8,9 +8,7 @@
     <h1>Paycheck Program</h1>
     <p>Mayumi Mitchell</p> 
 <script>  
-   
- 
- alert ("This program will caluculate Paycheck Please input your infomation");
+   alert ("This program will caluculate Paycheck Please input your infomation");
     // intro
     let neme;
     name = prompt("Pleae enter your name","");
@@ -32,13 +30,17 @@
     // get workedhours
     document.write ("\n Worked Hours:"+ workedhours);
     if (workedhours >= 40) {
-    document.write ("You worked over 40hours, you have overtime extra pay"); 
+        document.write ("You worked over 40hours, you can get overtime extra pay"); 
         let subtotal1;
     subtotal1 = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
+    document.write ("You pay is $" + subtotal1 ); 
     } else if (workedhours <=40) {
         let subtotal2;
-    subtotal2 = (hourlypay * workedhours);
-    }
+    subtotal2 = hourlypay * workedhours;
+    document.write ("Your pay is $" + subtotal2 ); 
+    }   
+ 
+
 
 </script>
 </body> 
