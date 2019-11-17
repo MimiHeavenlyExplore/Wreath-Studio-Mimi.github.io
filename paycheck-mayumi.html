@@ -9,6 +9,7 @@
     <p>Mayumi Mitchell</p> 
 <script>  
    
+ 
     alert ("This program will caluculate Paycheck Please input your infomation");
     // intro
     let neme;
@@ -30,10 +31,14 @@
     workedhours = parseFloat(prompt("\n Please enter your workedhours","0"));
     // get workedhours
     document.write ("\n Worked Hours:"+ workedhours);
-    if (workedhours >=40){
+    if (workedhours >= 40) {
+    alart("You worked over 40hours, you have overtime extra pay"); 
         let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
-    } 
+    } eles if (workedhours <=40) {
+        let subtotal;
+    subtotal = (hourlypay * workedhours);
+    }
 
 </script>
 </body> 
