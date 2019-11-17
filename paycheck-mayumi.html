@@ -1,25 +1,34 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html lang="en">
- <meta charset="UTF-8">
+<head>
+<meta charset="UTF-8">
    <title>paycheck-mayumi.html</title>
-   <p class="greet">  background-color: #fff200</p> 
-   <body>
+</head>
+   <body style = "background-color: #FFFF00;">
     <h1>Paycheck Program</h1>
     <p>Mayumi Mitchell</p> 
-      
-    
-<script type = "text/javascript">
+<script>
+    let name, ssn, hourlypay, workedhours, subtotal, gross, tax;  
     alert ("This program will caluculate Paycheck Please input your infomation");
-    let name;
-    name = prompt("Pleae enter your name");
+    // intro
+    let neme;
+    name = prompt("Pleae enter your name","");
+    //get name
     document.write (name);
-    let ssn = prompt("Plese enter your ssn last 4");
+    let ssn; 
+    ssn =prompt("Plese enter your ssn last 4","");
+    //get ssn
     document.write(ssn);
-    let hourlypay = parseFloat(prompt("Plese enter your hourlypay $"));
+    let hourlypay;
+    hourlypay = parseFloat(prompt("Plese enter your hourlypay $","0"));
+    // get hourlypay 
     document.write(hourlypay);
-    let workedhours = parseFloat(prompt("Please enter your workedhours"));
+    let workedhours;
+    workedhours = parseFloat(prompt("Please enter your workedhours","0"));
+    // get workedhours
     document.write(workedhour);
-    let subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
+    let subtotal;
+    subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
     if (subtotal <= 1000) {
     alert("You have to pay 15% tax, under $1000 paycheck.");  
     gross = subtotal * 0.85;
@@ -33,10 +42,10 @@ gross = subtotal * 0.75;
 tax = subtotal - gross;
  alert("Your total Gross is +'gross'+ Tax is +'tax'+ ");
 }
-document.write( subtotal + tax + gross );
+document.write( "<h2>subtotal + tax + gross"</h2> );
     
 
-<ul>
+
     <li><strong>Web page Freedom:</strong> <a href="freedom.html"> Mayumi's Freedom</a></li>
     <li><strong>Web page Combustion:</strong> <a href="https://wreathstudiomayumi.github.io/combustion.html"> Mayumi's Combustion</a></li>
     <li><strong>Mayumi Biography:</strong> <a href="https://wreathstudiomayumi.github.io/bio"> Biography</a></li>
@@ -44,7 +53,6 @@ document.write( subtotal + tax + gross );
     <li><strong>Web page index:</strong> <a href="https://wreathstudiomayumi.github.io/index.html"> Mayumi's index</a></li>
     <li><strong>Web page Casino:</strong> <a href="https://wreathstudiomayumi.github.io/casino-mayumi.html"> Mayumi's Casino</a></li> 
     <li><strong>Mayumi C2Fconverter:</strong> <a href="https://wreathstudiomayumi.github.io/c2fconverter-mayumi.html">C2FConverter</a></li> 
-</ul>
 
 </script>
 </body> 
