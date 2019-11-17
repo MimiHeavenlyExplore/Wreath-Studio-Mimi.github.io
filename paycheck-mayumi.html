@@ -30,14 +30,14 @@
     // get workedhours
     document.write ("\n Worked Hours:"+ workedhours);
     if (workedhours >= 40) {
-        document.write ("You worked over 40hours, you can get overtime extra pay"); 
+        document.write ("\n You worked over 40hours, you can get overtime extra pay"); 
         let subtotal1;
     subtotal1 = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
-    document.write ("You pay is $" + subtotal1 ); 
+    document.write ("\n You pay is $" + subtotal1 ); 
     } else if (workedhours <=40) {
         let subtotal2;
     subtotal2 = hourlypay * workedhours;
-    document.write ("Your pay is $" + subtotal2 ); 
+    document.write ("\n Your pay is $" + subtotal2 ); 
     }   
  
 
