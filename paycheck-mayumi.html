@@ -30,17 +30,17 @@
     let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (1.5 * hourlypay));
     if (subtotal <= 1000) {
-    alert("You have to pay 15% tax, under $1000 paycheck.");  
+      alert("You have to pay 15% tax, under $1000 paycheck.");  
     gross = subtotal * 0.85;
     tax = subtotal - gross;
-    alert("Your total Gross is +'gross'+ Tax is +'tax'+ ");
+      alert("Your total Gross is +'gross'+ Tax is +'tax'+ ");
     }
 
 else {
     alert("You have to pay 25% tax, over $1000 paycheck.");  
 gross = subtotal * 0.75;
 tax = subtotal - gross;
- alert("Your total Gross is +'gross'+ Tax is +'tax'+ ");
+  alert("Your total Gross is +'gross'+ Tax is +'tax'+ ");
 }
 
 
