@@ -32,14 +32,30 @@ alert ("This program will caluculate Paycheck Please input your infomation");
     if (workedhours >= 40) {
         document.write ("\n You worked over 40hours, you can get overtime extra pay"); 
         let subtotal1;
-    subtotal1 =(hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
+    subtotal1 = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
     document.write ("\n You pay is $" + subtotal1 ); 
-    } else if {
+    } else if (workedhours <=40) {
         let subtotal2;
     subtotal2 = hourlypay * workedhours;
     document.write ("\n Your pay is $" + subtotal2 ); 
     }
-
+     if (subtotal <= 1000) {
+    document.write ("You have to pay 15% tax, under $1000 paycheck.");  
+    let gross1;
+    gross1 = subtotal * 0.85;
+    let tax1;
+    tax1 = subtotal - gross1;
+    domucmet.write("Your total Gross is $" + gross1 + "Tax is $" +tax1 );
+    }
+    else if (subtotal >= 1000) {
+    document.write ("You have to pay 25% tax, over $1000 paycheck." );  
+    let gross2;
+    gross2 = subtotal * 0.75:
+    let tax2;
+    tax2 = subtotal - gross2;
+    document.write ("Your total Gross is $" + gross2 + "Tax is $" +tax2 );
+    }
+    
 
 </script>
 </body> 
