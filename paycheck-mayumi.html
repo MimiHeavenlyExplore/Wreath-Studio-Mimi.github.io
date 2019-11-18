@@ -30,12 +30,12 @@
     workedhours = parseFloat(prompt("\n Please enter your workedhours","0"));
     // get workedhours
     document.write ("\n Worked Hours:"+ workedhours);
-    if (workedhours >= 40) {
+    if (workedhours > 40) {
         document.write ("\n You worked over 40hours, you can get overtime extra pay"); 
         let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
     document.write ("\n You pay is $" + subtotal ); 
-    } else if (workedhours <=40) {
+    } else if (workedhours < 40) {
         let subtotal;
     subtotal = hourlypay * workedhours;
     document.write ("\n Your pay is $" + subtotal ); 
