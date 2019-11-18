@@ -34,13 +34,12 @@
         document.write ("\n You worked over 40hours, you can get overtime extra pay"); 
         let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
-    document.write ("\n You payr is $" + subtotal ); 
+    document.write (" You payr is $" + subtotal ); 
     } else if (workedhours < 40) {
         let subtotal;
     subtotal = hourlypay * workedhours;
-    document.write ("\n Your pay is $" + subtotal ); 
-    }
-     if (subtotal <= 1000) {
+    document.write (" Your pay is $" + subtotal ); 
+    } if (subtotal <= 1000) {
     document.write ("You have to pay 15% tax, under $1000 paycheck.");  
     let gross1;
     gross1 = subtotal * 0.85;
