@@ -22,16 +22,16 @@
     document.write (" SSN last4:"+ ssn);
     
     let hourlypay;
-    hourlypay = parseFloat(prompt("\n Plese enter your hourlypay $","0"));
+    hourlypay = parseFloat(prompt('Plese enter your hourlypay $ \n',"0"));
     // get hourlypay 
-    document.write (" Payrate:$"+ hourlypay);
+    document.write ('Payrate:$'+ hourlypay$);
     
     let workedhour;
-    workedhours = parseFloat(prompt(" Please enter your workedhours","0"));
+    workedhours = parseFloat(prompt("Please enter your workedhours$\n',"0"));
     // get workedhours
     document.write (" Worked Hours:"+ workedhours);
     if (workedhours >= 40) {
-        document.write (" You worked over 40hours, you can get overtime extra pay"); 
+        document.write (" You worked over 40hours, you can get overtime extra pay$\n'); 
         let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
     document.write (" Your pay is $" + subtotal ); 
