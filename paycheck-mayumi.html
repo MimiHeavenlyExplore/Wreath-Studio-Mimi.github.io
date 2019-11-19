@@ -12,19 +12,19 @@
     alert ("This program will caluculate Paycheck Please input your infomation");
     // intro
     let neme;
-    name = prompt("Pleae enter your name","");
+    name = prompt(" Pleae enter your name" ,"");
     //get name
-    document.write ("Name:"+ name);
+    document.write (" Name:" + name);
     
     let ssn; 
-    ssn =prompt("Plese enter your ssn last 4","");
+    ssn =prompt(" Plese enter your ssn last 4","");
     //get ssn
-    document.write ("SSN last4:"+ ssn);
+    document.write (" SSN last4:"+ ssn);
     
     let hourlypay;
     hourlypay = parseFloat(prompt("Plese enter your hourlypay $" ,"0"));
     // get hourlypay 
-    document.write ('Payrate:$'+ hourlypay$);
+    document.write ("Payrate:$"+ hourlypay$);
     
     let workedhour;
     workedhours = parseFloat(prompt("Please enter your workedhours$" ,"0"));
@@ -35,13 +35,11 @@
         let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
     document.write (" Your pay is $" + subtotal ); 
-    } 
-      else if (workedhours <= 40) {
+    } else if (workedhours <= 40) {
         let subtotal;
     subtotal = hourlypay * workedhours;
     document.write (" Your pay is $" + subtotal ); 
-    } 
-      else if (subtotal <= 1000) {
+    } else if (subtotal <= 1000) {
     document.write ("You have to pay 15% tax, under $1000 paycheck.");  
     var gross1, tax1, 
     gross1 = subtotal * 0.85;
