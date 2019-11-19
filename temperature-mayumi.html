@@ -12,14 +12,20 @@
 <script>
    temp = prompt( "Please write C or F","0") 
    if (temp = C){
-   }
-   else (temp = F){
-   }   
    var Ftemp, Ctemp, sEntry;
    sEntry = prompt("Enter degrees F =","0");
    Ftemp = parseFloat(sEntry);
    Ctemp = (Ftemp - 32)/1.8 ;
-   document.write (Ftemp + "F = " + Ctemp + "C" );  
+   document.write (Ftemp + "F = " + Ctemp + "C" );
+    }
+   else (temp = F){
+   var Ctemp, Ftemp, sEntry;
+   sEntry = prompt("Enter degrees C =","0");
+   Ctemp = parseFloat(sEntry);
+   Ftemp = 1.8 * Ctemp + 32;
+   document.write(Ctemp + "C =" + Ftemp + "F" )
+   {      
+        
 </script>
 </h2>
 <ul>
