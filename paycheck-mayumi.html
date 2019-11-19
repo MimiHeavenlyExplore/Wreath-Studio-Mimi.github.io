@@ -50,7 +50,7 @@
     case (subtotal >= 1000)     
      document.write ("You have to pay 25% tax, over $1000 paycheck." );  
     var gross2, tax2,  
-    gross2 = subtotal * 0.75;
+    gross2 = 150 + (subtotal - 1000 )(subtotal * 0.75);
     tax2 = subtotal - gross2;
     }   
     document.write ("Your total Gross is $" + gross2 + "Tax is $" + tax2 );
