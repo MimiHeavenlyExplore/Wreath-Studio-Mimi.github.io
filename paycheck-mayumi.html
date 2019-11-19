@@ -35,22 +35,22 @@
         let subtotal;
     subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
     document.write (" Your pay is $" + subtotal ); 
-    } else if (workedhours <= 40) {
+    } 
+      else if (workedhours <= 40) {
         let subtotal;
     subtotal = hourlypay * workedhours;
     document.write (" Your pay is $" + subtotal ); 
-    } else if (subtotal <= 1000) {
+    } 
+      else if (subtotal <= 1000) {
     document.write ("You have to pay 15% tax, under $1000 paycheck.");  
-    let gross1;
+    var gross1, tax1, 
     gross1 = subtotal * 0.85;
-    let tax1;
     tax1 = subtotal - gross1;
     domucmet.write("Your total Gross is $" + gross1 + "Tax is $" +tax1 );
     } else if (subtotal >= 1000) {
     document.write ("You have to pay 25% tax, over $1000 paycheck." );  
-    let gross2;
+    var gross2, tax2,  
     gross2 = subtotal * 0.75;
-    let tax2;
     tax2 = subtotal - gross2;
     }   
     document.write ("Your total Gross is $" + gross2 + "Tax is $" +tax2 );
