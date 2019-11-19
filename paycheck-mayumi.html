@@ -41,7 +41,7 @@
     document.write (" Your pay is $" + subtotal ); 
     } switch (subtotl) {
     case (subtotal <= 1000)
-       var gross1, tax1, 
+       let gross1, tax1, 
           document.write ("You have to pay 15% tax, under $1000 paycheck.");  
      gross1 = subtotal * 0.85;
      tax1 = subtotal - gross1;
@@ -49,7 +49,7 @@
     break;      
     case (subtotal >= 1000)     
     document.write ("You have to pay 25% tax, over $1000 paycheck." );  
-    var gross2, tax2,  
+      let gross2, tax2,  
     gross2 = subtotal * 0.75;
     tax2 = subtotal - gross2;
     }   
