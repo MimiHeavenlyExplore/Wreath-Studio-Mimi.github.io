@@ -12,8 +12,7 @@
     alert ("This program will caluculate Paycheck Please input your infomation");
     // intro
     let name;
-    let subtotal1;        
-    let subtotal2;
+    let subtotal;        
     name = prompt("Pleae enter your name","");
     //get name
     document.write ("Name:"+ name + "<br>" );
@@ -35,21 +34,21 @@
     if (workedhours > 40) {
         document.write (" You worked over 40hours, you can get overtime extra pay" + "<br>" ); 
         
-        subtotal1 = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
-        document.write (" Your pay is $" + subtotal1 + "<br>" ); 
+        subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
+        document.write (" Your pay is $" + subtotal + "<br>" ); 
     } 
     else {
 
-        subtotal2 = hourlypay * workedhours;
-        document.write (" Your pay is $" + subtotal2 + "<br>" ); 
+        subtotal = hourlypay * workedhours;
+        document.write (" Your pay is $" + subtotal + "<br>" ); 
     }
 
-    if (subtotal1 || subtotal2 >= 1000) {
+    if (subtotal >= 1000) {
         document.write ("You have to pay 25% tax, over $1000 paycheck." + "<br>");  
         let gross1;
-        gross1 = (1000 * 0.85) + (subtotal1-1000) * 0.75 ;
+        gross1 = (1000 * 0.85) + (subtotal-1000) * 0.75 ;
         let tax1;
-        tax1 = 150 +(subtotal1-1000) * 0.25;
+        tax1 = 150 +(subtotal-1000) * 0.25;
         document.write ("Your total Gross is $" + gross1 + "Tax is $" + tax1 + "<br>");
     } 
     else {
@@ -57,10 +56,10 @@
         let gross2;
         gross2 = (subtotal * 0.85);
         let tax2;
-        tax2 = gross2 * 0.15;
-        documet.write("Your total Gross is $" + gross2 + "Tax is $" + tax2 + "<br>" );
+        tax2 = subtotal * 0.15;
+        document.write("Your total Gross is $" + gross2 + "Tax is $" + tax2 + "<br>" );
     }
-        document.write (" Thank you for visit Mayumi's paycheck program!") ;
+    document.write (" Thank you for visit Mayumi's paycheck program!") ;
   
 </script>
     <ul>
@@ -73,5 +72,3 @@
    
 </body> 
 </html>
-
-
