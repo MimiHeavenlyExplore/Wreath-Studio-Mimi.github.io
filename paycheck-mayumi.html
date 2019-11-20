@@ -4,59 +4,74 @@
 <meta charset="UTF-8">
    <title>paycheck-mayumi.html</title>
 </head>
-   <body style = "background-color: #FFFF00;">
+   <body style = "background-color: #c0db75;;">
     <h1>Paycheck Program</h1>
-    <p>Mayumi Mitchell</p> 
-<script>  
+    <p> by Mayumi Mitchell</p> 
+<script>
     
     alert ("This program will caluculate Paycheck Please input your infomation");
     // intro
-    let neme;
-    name = prompt(" Pleae enter your name" ,"");
+    let name;
+    let subtotal1;        
+    let subtotal2;
+    name = prompt("Pleae enter your name","");
     //get name
-    document.write (" Name:" + name);
+    document.write ("Name:"+ name + "<br>" );
     
     let ssn; 
-    ssn =prompt(" Plese enter your ssn last 4","");
+    ssn =prompt("Plese enter your ssn last 4","");
     //get ssn
-    document.write (" SSN last4:"+ ssn);
+    document.write (" SSN last4:"+ ssn + "<br>" );
     
     let hourlypay;
-    hourlypay = parseFloat(prompt("Plese enter your hourlypay $" ,"0"));
+    hourlypay = parseFloat(prompt(" Plese enter your hourlypay $","0"));
     // get hourlypay 
-    document.write ("Payrate:$"+ hourlypay);
+    document.write (" Payrate:$"+ hourlypay + "<br>" );
     
     let workedhour;
-    workedhours = parseFloat(prompt("Please enter your workedhours$" ,"0"));
+    workedhours = parseFloat(prompt(" Please enter your workedhours","0"));
     // get workedhours
-    document.write (" Worked Hours:"+ workedhours);
-    if (workedhours >= 40) {
-        document.write (" You worked over 40hours, you can get overtime extra pay$"); 
-        let subtotal;
-    subtotal = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
-    document.write (" Your pay is $" + subtotal ); 
-    } else if (workedhours <= 40) {
-        let subtotal;
-    subtotal = hourlypay * workedhours;
-    document.write (" Your pay is $" + subtotal ); 
-    } switch (subtotl) {
-    case (subtotal <= 1000)
-     var gross1 tax1 
-          document.write ("You have to pay 15% tax, under $1000 paycheck.");  
-     gross1 = subtotal * 0.85;
-     tax1 = subtotal - gross1;
-     domucmet.write("Your total Gross is $" + gross1 + "Tax is $" +tax1 );     
-    break;      
-    case (subtotal >= 1000)     
-     document.write ("You have to pay 25% tax, over $1000 paycheck." );  
-    var gross2 tax2  
-    gross2 = 150 + (subtotal - 1000 )(subtotal * 0.75);
-    tax2 = subtotal - gross2;
-    }   
-    document.write ("Your total Gross is $" + gross2 + "Tax is $" + tax2 );
-    document.write (" Thank you for visit Mayumi's paycheck program!") ;
+    document.write (" Worked Hours:"+ workedhours + "<br>" );
+    if (workedhours > 40) {
+        document.write (" You worked over 40hours, you can get overtime extra pay" + "<br>" ); 
+        
+        subtotal1 = (hourlypay * workedhours) + ((workedhours - 40) * (0.5 * hourlypay));
+        document.write (" Your pay is $" + subtotal1 + "<br>" ); 
+    } 
+    else {
+
+        subtotal2 = hourlypay * workedhours;
+        document.write (" Your pay is $" + subtotal2 + "<br>" ); 
+    }
+
+    if (subtotal1 || subtotal2 >= 1000) {
+        document.write ("You have to pay 25% tax, over $1000 paycheck." + "<br>");  
+        let gross1;
+        gross1 = (1000 * 0.85) + (subtotal1-1000) * 0.75 ;
+        let tax1;
+        tax1 = 150 +(subtotal1-1000) * 0.25;
+        document.write ("Your total Gross is $" + gross1 + "Tax is $" + tax1 + "<br>");
+    } 
+    else {
+        document.write("You have to pay 15% tax, under $1000 paycheck."+ "<br>" );  
+        let gross2;
+        gross2 = (subtotal * 0.85);
+        let tax2;
+        tax2 = gross2 * 0.15;
+        documet.write("Your total Gross is $" + gross2 + "Tax is $" + tax2 + "<br>" );
+    }
+        document.write (" Thank you for visit Mayumi's paycheck program!") ;
   
 </script>
+    <ul>
+    <li><strong> →Web page C to F Converter</strong> <a href="https://wreathstudiomayumi.github.io/c2fconverter-mayumi.html"> Mayumi's C2FConverter</a></li>
+    <li><strong>Web page Paycheck:</strong> <a href="https://wreathstudiomayumi.github.io/paycheck-mayumi.html"> Mayumi's Paycheck Program</a></li> 
+    <li><strong>Web page index:</strong> <a href="https://wreathstudiomayumi.github.io/index.html"> Mayumi's index</a></li>
+    <li><strong>Web page Casino:</strong> <a href="https://wreathstudiomayumi.github.io/casino-mayumi.html"> Mayumi's Casino</a></li> 
+   </ul>
+   
+   
 </body> 
 </html>
+
 
