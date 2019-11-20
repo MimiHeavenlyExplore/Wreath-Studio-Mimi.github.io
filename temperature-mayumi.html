@@ -1,31 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
    <title>temperature program-mayumi.html</title>
 </head>
-<body style = "background-color: #FFFF00;">
-    <h1>Temperature Program F to C </h1>
+<body style = "background-color: #c0db75;">
+    <h1>Temperature convert Program F and C </h1>
     <h5> by Mayumi Mitchell</h5> 
-<p>This program will convert temperatures from Fahrenheit to Celsius.</p> 
+<p>This program will convert temperatures Fahrenheit and Celsius.</p> 
 <h2 style = "color: blue;">  
 <script>
+  
+   let temp = prompt("Please input C or F","0");
+
+   if (temp === 'c' || temp === 'C') {
+      let entry = prompt("Enter degrees C =","0" );
+      let ctemp = parseFloat(entry);
+      let ftemp = 1.8 * ctemp + 32;
+      document.write(ctemp + "C =" + ftemp + "F" );
+   }
+   else if (temp === 'f' || temp === 'F') {
+      let entry = prompt("Enter degrees F =","0");
+      let ftemp = parseFloat(entry);
+      let ctemp = (ftemp - 32)/1.8 ;
+      document.write (ftemp + "F = " + ctemp + "C" );
+   }
+   else {
+      document.write ("please input numbers" );
+   }
+
    
-   let temp = prompt("Please input C or F","0"); 
-   if (temp = c == C , "0") {
-   var Ftemp, Ctemp, sEntry;
-   sEntry = prompt("Enter degrees F =","0");
-   Ftemp = parseFloat(sEntry);
-   Ctemp = (Ftemp - 32)/1.8 ;
-   document.write (Ftemp + "F = " + Ctemp + "C" );
-    } else (temp == f == F ,"0") {
-   var Ctemp, Ftemp, sEntry;
-   sEntry = prompt("Enter degrees C =","0");
-   Ctemp = parseFloat(sEntry);
-   Ftemp = 1.8 * Ctemp + 32;
-   document.write(Ctemp + "C =" + Ftemp + "F" );
-    }   
+
+    
+       
         
 </script>
 </h2>
@@ -37,4 +44,5 @@
    </ul>
    </body>
 </html>
+  
   
