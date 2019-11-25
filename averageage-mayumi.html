@@ -1,17 +1,30 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-   <title>paycheck2-mayumi.html</title>
+    <meta charset="UTF-8">
+    <title>AverageAge-mayumi.html</title>
 </head>
-   <body style = "background-color: #FFFF00;">
-    <h1>Paycheck2 Program</h1>
+<body style = "background-color: #75ccdb;;">
+    <h1>Average Age Calculator</h1>
     <p> by Mayumi Mitchell</p> 
-<script>
-    
-    alert ("This program will caluculate Paycheck Please input your infomation");
+</body>   
+<script type="text/javascript">
+  
+  alert ("This program will caluculate Average Age Please input your infomation");
     // intro
-    
+    let name;
+    // get Name 
+    name = prompt("Pleae enter your name","");
+    document.write ("Name:"+ name + "<br>" );
+
+    var age, count = 1, sum = 0;
+    while(count <=5){
+    // get Age 
+    age = parseFloat(prompt(" Plese enter your Age " + count, "0"));
+    sum = sum + age;
+    document.write("<p> Your Age" + count + "=" + age + "</p>")
+    count = count + 1;
+    document.write("<h3>Your Age Average is " + (sum/5) + "</h3>" );
+
 </script>
-</body> 
 </html>
