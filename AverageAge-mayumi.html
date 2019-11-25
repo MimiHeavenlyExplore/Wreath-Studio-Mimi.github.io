@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AverageAge-mayumi.html</title>
+</head>
+<body style = "background-color: #75ccdb;;">
+    <h1>Average Age Calculator</h1>
+    <p> by Mayumi Mitchell</p> 
+</body>
+<script>
+    alert ("This program will caluculate Average Age Please input your infomation");
+    // intro
+    let name;
+    var score, scoretotal = 0, count= 0;
+    // get Name 
+    name = prompt("Please enter your name","");
+    document.write ("Name:"+ name + "<br>" );
+    score = parseFloat(prompt(" Plese enter Age(-1 to end)" + ""));
+    // get Age 
+    while(score >= 0){
+        scoretotal = scoretotal + score;
+        count = count + 1;
+        document.write("Score" + count + " = " + score + "<br>");
+        score = parseFloat(prompt("Please enter Age(-1 to end)" + ""));
+    // get Age 
+      }
+    document.write("Average score is " + (scoretotal/count) + "<br>");
+ </script>
+  <p>Click Reload to run the script again</p>
+</html>
