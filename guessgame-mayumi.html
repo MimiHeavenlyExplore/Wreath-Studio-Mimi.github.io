@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-   <title>paycheck-mayumi.html</title>
+    <meta charset="UTF-8">
+    <title>Loop</title>
 </head>
-   <body style = "background-color: #FFFF00;">
-    <h1>Paycheck Program</h1>
-    <p> by Mayumi Mitchell</p> 
+<body style = "background-color: #75ccdb;;">
+        <h1>GuessGame-mayumi.html</h1>
+        <p> by Mayumi Mitchell</p> 
+</body>
 <script>
+alert ("This program is Guess Number Please input Number");
+ // intro
+ var sScore, sEntry, nNumber = 0 ;
+ sScore = Math.floor(Math.random()*10);
     
-    alert ("This program will caluculate Paycheck Please input your infomation");
-    // intro
+ while (nNumber < 5 ) {
+ nNumber ++;
+ 
     
-
+    sEntry = parseInt(prompt("Please enter guess number(1-9)" , "")); 
+     
+    if (sEntry == sScore) 
+    {
+        document.write("You are correct! The number is " + sEntry + " You win!" + "<br>");
+        break ;
+    }
+        else if ( sEntry < sScore ) {
+        document.write( sEntry + " is too low." + " Enter your guess number again." + "<br>");
+        alert("Too low");    
+     }
+        else  
+    {
+        document.write (sEntry + " is too high." + " Enter your guess number again." + "<br>");
+        alert("Too high"); 
+   }
+}
+    document.write(" Thank you for visit Guess game!" + "<br>");
 
 </script>
-</body> 
 </html>
