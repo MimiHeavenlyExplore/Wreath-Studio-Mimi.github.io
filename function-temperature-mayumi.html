@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Mayumi Program -->
+<head>
+<meta charset="UTF-8">
+   <title>temperature program-mayumi.html</title>
+</head>
+<body style = "background-color: #c0db75;">
+    <h1>Temperature convert Program F and C  use Function</h1>
+    <h5> by Mayumi Mitchell</h5> 
+<p>This program will convert temperatures Fahrenheit and Celsius.</p> 
+<h2 style = "color: blue;">  
+<script>
+   function CtoF (ctemp){
+    var ftemp = 1.8 * ctemp + 32;
+    return ftemp;   
+   }
+    function FtoC (ftemp){   
+    var ctemp = (ftemp - 32)/1.8 ;
+    return ctemp; 
+    }    
+    let temp = prompt("Please input C or F","0");
+    if (temp === 'c' || temp === 'C') {
+        let entry = prompt("Enter degrees C =","0" );
+        let ctemp = parseFloat(entry);
+        document.write(ctemp + "C =" + CtoF(ctemp) + "F");
+    }
+    else if (temp === 'f' || temp === 'F') {
+    let entry = prompt("Enter degrees F =","0");
+    let ftemp = parseFloat(entry);
+    document.write(ftemp + "F =" + FtoC(ftemp) + "C");
+    }
+    else {
+    alert("Warning: Type F or C")
+    }
+            
+</script>
+</h2>
+<ul>
+    <li><strong> →Web page Temperature Converter</strong> <a href="temperature-mayumi.html"> Mayumi's Temperature Converter</a></li>
+    <li><strong>Web page Paycheck:</strong> <a href="paycheck-mayumi.html"> Mayumi's Paycheck Program</a></li> 
+    <li><strong>Web page index:</strong> <a href="index.html"> Mayumi's index</a></li>
+    <li><strong>Web page Casino:</strong> <a href="casino-mayumi.html"> Mayumi's Casino</a></li> 
+   </ul>
+   </body>
+</html>
+  
