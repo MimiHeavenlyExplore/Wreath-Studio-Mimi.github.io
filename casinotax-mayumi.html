@@ -1,1 +1,111 @@
-here is HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mayumi's Casino Chip Counter</title>
+    <meta name="casinotax" content="CMIS102">
+    <link rel="stylesheet" href="casino-style.css">
+</head>
+    <body style="background-color:#ffafbf;">
+    <h1>Chip Counting Program</h1>
+    <p>This program is counting chip colors and values. </p>
+<table border="1">
+<tr><th>Chip Color</th>
+    <th>Value</th></tr>
+<tr> <td>Black</td><td>$5</td></tr> 
+<tr><td>Blue</td><td>$20</td></tr> 
+<tr><td>Red</td><td>$50</td></tr> 
+<tr><td>Green</td><td>$100</td></tr> 
+<tr><td>Gold</td><td>$500</td></tr> 
+</table>   
+<h4>by Mayumi Mitchell</h4>
+<script type= "text/javascript">
+alert("Welcome to the Mayumi's Casino Chip counter");
+var nChipColor = new Array("Black","Blue","Red","Green","Gold");
+var nChipValue = new Array(5,20,50,100,500);
+var nReceipts, nChipSum, nWinning;
+
+document.write("Welcome Mayumi's Casino Chip Counter" + "<br/>");
+nReceipts = getReceipt();
+document.write(" Total Chip Receipts Price $" + nReceipts + "<br/>");
+nChipSum = getChips(nChipColor,nChipValue);
+document.write(" Total Chip Value = $" + nChipSum + "<br/>");
+nWinning = nChipSum - nReceipts;
+document.write("Your winnings is $"+ nWinning +"<br/>");
+displayResults(nChipSum, nWinning);
+
+function getReceipt(){
+        var nSum = 0 ;
+        for (var nI = 1; nI < 100; nI++){
+        var nEntry = parseInt(window.prompt("Please submit all Receipt " + nI + "or Q to Quit", ""));
+        if(isNaN(nEntry)) {
+        break;
+        }
+        if(nEntry< 0){ 
+        alert("Receipts cannot be negative! Please submit it again. ");
+        continue; 
+        }
+        document.write("Receipt " + nI + " = $ " + nEntry + "<br/>");
+        nSum = nSum + nEntry;
+        }
+        return nSum;
+}
+function getChips (sColor, nValue) {
+    var nSum = 0 ;
+    for (var nI = 0; nI < sColor.length; nI++ ){
+        var nEntry = parseInt(window.prompt("How many  " + sColor[nI] + " Chips do you have? ", "0"));
+        document.write(sColor[nI] + "Number of Chips =  " + nEntry + " and Value is $" + (nEntry * nValue[nI]) + "<br/>" );
+        nSum = nSum + nEntry * nValue[nI]; 
+    }
+    return nSum;
+    
+}
+
+function displayResults(nTotal, nWinning) { 
+    var nTax=0.0,  sSSN, nWinnings, tCashout;
+    fCashout = nTotal - nTax;
+    
+    sSSN= prompt("Enter your Social Security Number or Drivers license" );
+    document.write("Your SSN: " + sSSN + "<br/>");
+    document.write("Congratulation you won! $ " + fCashout + "<br/>" + "Please visit again. See you next time!");
+    
+    if (nWinning <= 0){
+        document.write("Your Cash out is $" + nTotal + "<br/>" + 
+        "You lost $" + ( -nWinning) + ", Thank you for visiting.");
+    }
+    else if (nWinning == 0){
+        document.write("You Cash out is $" + nTotal + "<br/>" + 
+        "You were even. Please visit next time.");
+    }
+    else if(nWinning >= 0){
+        alert("You win! U.S./Guam residents:20%Tax" + "\n"
+        + "CNMI residents:10% Tax" + "\n" 
+        + "Foreigners: 0% Tax" );
+
+    }
+
+    if (confirm("Are you U.S. or Guam resident? Tax 20% ")){
+        
+        nTax = nWinning * 0.20;
+        document.write(" Your Tax is $" + nTax + "\n" + "Tax will be deducted from Total" + "<br/>")
+                 
+    }
+    else if (confirm("Are you CNMI resident? Tax 10% ")){
+        
+        nTax = nWinning * 0.10;
+        document.write(" Your Tax is $" + nTax + "\n"+ "Tax will be deducted from Total" + "<br/>"); 
+                
+    }
+    else {
+        document.write(" Your Cash out is $" + (nTotal) + "<br/>");
+    
+    }
+    
+
+
+}
+
+
+</script>
+</body>
+</html>
