@@ -37,7 +37,7 @@ displayResults(nChipSum, nWinning);
 function getReceipt(){
         var nSum = 0 ;
         for (var nI = 1; nI < 100; nI++){
-        var nEntry = parseInt(window.prompt("Please submit all Receipt " + nI + "or Q to Quit", ""));
+        var nEntry = parseInt(window.prompt("Please submit all Receipts " + nI + "or Q to Quit", ""));
         if(isNaN(nEntry)) {
         break;
         }
@@ -62,14 +62,14 @@ function getChips (sColor, nValue) {
 }
 
 function displayResults(nTotal, nWinning) { 
-    var nTax=0.0,  sSSN, nWinnings, tCashout;
+    var nTax=0.0,  sSSN, nWinning, tCashout;
     fCashout = nTotal - nTax;
     
     sSSN= prompt("Enter your Social Security Number or Drivers license" );
     document.write("Your SSN: " + sSSN + "<br/>");
     document.write("Congratulation you won! $ " + fCashout + "<br/>" + "Please visit again. See you next time!");
     
-    if (nWinning <= 0){
+    if (nWinning < 0){
         document.write("Your Cash out is $" + nTotal + "<br/>" + 
         "You lost $" + ( -nWinning) + ", Thank you for visiting.");
     }
@@ -77,7 +77,7 @@ function displayResults(nTotal, nWinning) {
         document.write("You Cash out is $" + nTotal + "<br/>" + 
         "You were even. Please visit next time.");
     }
-    else if(nWinning >= 0){
+    else if(nWinning > 0){
         alert("You win! U.S./Guam residents:20%Tax" + "\n"
         + "CNMI residents:10% Tax" + "\n" 
         + "Foreigners: 0% Tax" );
